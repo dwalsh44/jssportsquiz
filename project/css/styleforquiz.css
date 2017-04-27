@@ -1,0 +1,84 @@
+body {
+	margin: 10;
+}
+
+
+#content {
+	max-width: 948px;
+	margin: 0 auto;	
+}
+h1 {
+	text-align: center;
+	color: #ef6d3b;
+	text-shadow: 1px 1px 1px #000;
+	font-family: "Chewy";
+	font-size: 50px;
+}
+h2 {
+	text-align:center;
+	font-family:"Comic Sans MS";
+	font: 24pt;
+	color:#87CEFA;
+}
+
+.row {
+	display: flex;
+	height: 50%;
+}
+p {
+	color: #f8981C;
+	font-size: 24px;
+	font-family: "Comic Sans MS";
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.formLayout
+{
+	background-color: #ef6d3b;
+    border: solid 1px #a1a1a1;
+    padding: 55px;
+    width: 450px;
+}
+
+.formLayout label, .formLayout input
+{
+	background-color: #ef6d3b;
+    display: block;
+    width: 200px;
+    float: left;
+	margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.formLayout label
+{
+    text-align: center;
+    padding-right: 20px;
+	
+}
+
+br
+{
+    clear: left;
+}

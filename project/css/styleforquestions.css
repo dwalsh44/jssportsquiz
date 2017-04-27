@@ -1,0 +1,32 @@
+body{
+text-align:center;
+margin: 25px auto;
+}
+h1 {
+	text-align: center;
+	color: #ef6d3b;
+	text-shadow: 1px 1px 1px #000;
+	font-family: "Chewy";
+	font-size: 60px;
+}
+h2 {
+text-align:center;
+font-family:Comic Sans MS;
+font: 20pt;
+color:#87CEFA;
+}
+.quizquestions {
+
+	background-color: #ef6d3b;
+    border: solid 1px #a1a1a1;
+    padding: 55px;
+    width: 450px;
+	margin-left:200px;
+	font-family:Comic Sans MS;
+	font-size:15pt;
+	text-align: justify;
+	vertical-align: left;
+	
+}
+
+
